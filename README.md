@@ -3,7 +3,7 @@
 Code accompanying the paper:
 
 **Regularized ERM on Random Subspaces**  
-*A. Della Vecchia, J.Mourtada, E. De Vito, L. Rosasco*  
+*A. Della Vecchia, J. Mourtada, E. De Vito, L. Rosasco*  
 International Conference on Artificial Intelligence and Statistics (AISTATS), 2021
 
 📄 [Paper link](https://proceedings.mlr.press/v130/della-vecchia21a.html)  
