@@ -12,10 +12,9 @@ International Conference on Artificial Intelligence and Statistics (AISTATS), 20
 ---
 
 ## Overview
-This repository provides simulation code and experiments for studying **regularized empirical risk minimization (ERM)** on random subspaces, with applications to kernel methods such as the **Nyström method**.  
-The work analyzes **statistical–computational tradeoffs** for convex loss functions, with a focus on scalability in high-dimensional settings.
+This repository contains simulation code and experiments for studying kernel-based regularized empirical risk minimization (ERM) on random subspaces, with a particular emphasis on the Nyström approximation.
 
----
+Our work investigates the statistical–computational trade-offs that arise when applying convex (and possibly non-differentiable) loss functions, such as the hinge loss for classification. The methodology is designed for scalability in high-dimensional settings, delivering significant memory and runtime savings while maintaining optimal performance.
 
 ## Installation
 Clone the repository and install the required dependencies:
@@ -62,11 +61,13 @@ svm-random-subspaces/
 If you use this code, please cite our paper:
 
 ```bibtex
-@inproceedings{dellavecchia2021randomsubspaces,
-  title={Regularized ERM on Random Subspaces},
-  author={Della Vecchia, Andrea and Mourtada, Joseph and De Vito, Ernesto and Rosasco, Lorenzo},
-  booktitle={Proceedings of the International Conference on Artificial Intelligence and Statistics (AISTATS)},
-  year={2021}
+@inproceedings{della2021regularized,
+  title={Regularized ERM on random subspaces},
+  author={Della Vecchia, Andrea and Mourtada, Jaouad and De Vito, Ernesto and Rosasco, Lorenzo},
+  booktitle={International Conference on Artificial Intelligence and Statistics},
+  pages={4006--4014},
+  year={2021},
+  organization={PMLR}
 }
 ```
 
