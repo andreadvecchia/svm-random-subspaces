@@ -12,9 +12,9 @@ International Conference on Artificial Intelligence and Statistics (AISTATS), 20
 ---
 
 ## Overview
-This repository contains simulation code and experiments for studying kernel-based regularized empirical risk minimization (ERM) on random subspaces, with a particular emphasis on the Nyström approximation.
+This repository contains simulation code and experiments for studying **kernel-based regularized empirical risk minimization (ERM) on random subspaces**, with a particular emphasis on the **Nyström approximation**.
 
-Our work investigates the statistical–computational trade-offs that arise when applying convex (and possibly non-differentiable) loss functions, such as the hinge loss for classification. The methodology is designed for scalability in high-dimensional settings, delivering significant memory and runtime savings while maintaining optimal performance.
+Our work investigates the **statistical–computational trade-offs** that arise when applying convex (and possibly non-differentiable) loss functions, such as the hinge loss for classification. The methodology is designed for **scalability in high-dimensional settings**, delivering significant **memory and runtime savings** while maintaining optimal performance.
 
 ## Installation
 Clone the repository and install the required dependencies:
