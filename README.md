@@ -74,3 +74,23 @@ If you use this code, please cite our paper:
 
 ## License
 This project is released under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
+## Quickstart (Demo Notebook)
+
+Open **`notebooks/demo_experiment.ipynb`** and run all cells to see Random‑Subspace SVM vs. a baseline SVM on a synthetic high‑dimensional dataset. The demo is self‑contained and finishes in a few seconds.
+
+## Python API
+
+```python
+
+from svm_random_subspaces import RandomSubspaceSVM
+
+model = RandomSubspaceSVM(M=25, k=20, random_state=7)
+
+model.fit(X_train, y_train)
+
+y_pred = model.predict(X_test)
+
+```
+

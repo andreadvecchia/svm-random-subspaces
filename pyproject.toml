@@ -1,0 +1,36 @@
+[project]
+name = "svm-random-subspaces"
+version = "0.1.0"
+description = "Random-Subspace SVM: an ensemble of SVMs trained on random feature subsets."
+authors = [{name = "Andrea Della Vecchia"}]
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy",
+    "scikit-learn",
+]
+
+[project.urls]
+Homepage = "https://github.com/andreadvecchia/svm-random-subspaces"
+Issues = "https://github.com/andreadvecchia/svm-random-subspaces/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
