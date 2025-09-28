@@ -38,8 +38,6 @@ To plot the results:
 python scripts/plot_results.py --input results/exp1.csv
 ```
 
-(We will update the available options once the scripts are fully cleaned.)
-
 ---
 
 ## Repository Structure
